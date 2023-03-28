@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Welcome to the Landing Page, Please Hold!</h1>
+    <div id="Applet_Login">
+        {% for post in posts %}
+            <button>{{ post.username }}</button>
+        {% endfor %}
+    </div>
+{% endblock content %}
