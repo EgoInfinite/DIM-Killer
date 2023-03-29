@@ -12,4 +12,4 @@ def goto_landing(request):
     context = {
         'posts': posts    
     }
-    return render(request, 'test_template.html', context)
+    return render(request, 'landing_login.html', context)
