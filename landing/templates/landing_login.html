@@ -1,9 +1,14 @@
 {% extends "base_template.html" %}
 {% block content %}
-    <h1>Welcome to the Landing Page, Please Hold!</h1>
+<body>
     <div id="Applet_Login">
         {% for post in posts %}
-            <button>{{ post.username }}</button>
+            <input placeholder="Username">
+            <input type="Password" placeholder="Password">
         {% endfor %}
     </div>
+    <h1>This is a test of D2-Head</h1>
+    <h3>This is a test of D2-Head-Light</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quas obcaecati magni inventore fuga eos ullam reprehenderit, quae optio sunt. Aut, repudiandae placeat. Ad neque deleniti omnis, sapiente qui ipsa.</p>
+</body>
 {% endblock content %}

@@ -1,10 +1,41 @@
+
+
+// @font-face {
+//     font-family: D2-Head;
+//     src: url("../../fonts/Pragmatica-ExtraLight.woff") format('opentype');
+//     font-display: swap;
+// }
+@font-face {
+    font-family: D2-Head-Light;
+    src: url("../../fonts/Pragmatica-ExtraLight.woff") format('opentype');
+    font-display: swap;
+}
+@font-face {
+    font-family: D2-Body;
+    src: url("../../fonts/AGaramondPro-Regular.woff") format('opentype');
+    font-display: swap;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
 body {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    background: grey;
-        button {
-            padding: 20px;
-            background: pink;
-        }
+    background-color: lightslategray;
+    h1 {
+        font-family: 'D2-Head', sans-serif;
+    }
+    h2 {
+        font-family: 'D2-Head-Light', sans-serif;
+    }
+    p {
+        font-family: 'D2-Body', serif;
+    }
+}
+
+#Applet_Login {
+    background-color: #333;
+    border: 5px solid #000;
 }
